@@ -2,9 +2,9 @@
 class Terraformer < Formula
   desc "A go program that generates terraform using go templates ..."
   homepage "https://github.com/klaeff/terraformer"
-  url "https://github.com/klaeff/terraformer/releases/download/1.0.4/terraformer_1.0.4_Darwin_x86_64.tar.gz"
-  version "1.0.4"
-  sha256 "bad6140f6964a596263cf7de1938ea234d3c2d72dcaf1252734d8c3fdc8c61ad"
+  url "https://github.com/klaeff/terraformer/releases/download/1.0.5/terraformer_1.0.5_Darwin_x86_64.tar.gz"
+  version "1.0.5"
+  sha256 "5b93c035dc6cb2bb5453a3e711a81244c9c082d3daaaec7a11215dd74841d6f3"
 
   def install
     bin.install "terraformer"
@@ -13,5 +13,9 @@ class Terraformer < Formula
   def caveats; <<~EOS
     How to use this binary
   EOS
+  end
+
+  test do
+    system "#(bin)/terraformer --version"
   end
 end
