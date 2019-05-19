@@ -9,5 +9,5 @@ brew tap klaeff/tap
 
 | Formula                                             | Description                                                    | Install                                |
 |:-----------------------------------------------------|:----------------------------------------------------------------|:----------------------------------------|
-| [terraformer](https://github.comi/klaeff/terraformer) | A go program that generates terraform files using go templates | `brew install klaeff/tap/terraformer`  |
+| [terraformer](https://github.com/klaeff/terraformer) | A go program that generates terraform files using go templates | `brew install klaeff/tap/terraformer`  |
 |                                                     |                                                                |                                        |
